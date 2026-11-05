@@ -1,0 +1,5 @@
+study_id,title,collection,tonic,tempo_bpm,meter,ppq,bars,end_tick,combined_path,roles
+agm01,Soft Linen,pack-local equal-tempered pitch collection,D,72,4/4,480,32,61440,midi/agm01-soft-linen/agm01-soft-linen-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+agm02,Pale Morning,pack-local equal-tempered pitch collection,F,72,4/4,480,32,61440,midi/agm02-pale-morning/agm02-pale-morning-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+agm03,Still Finger,pack-local equal-tempered pitch collection,G#,72,4/4,480,32,61440,midi/agm03-still-finger/agm03-still-finger-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+agm04,Quiet Distance,pack-local equal-tempered pitch collection,D#,72,4/4,480,32,61440,midi/agm04-quiet-distance/agm04-quiet-distance-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums

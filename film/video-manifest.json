@@ -1,0 +1,26 @@
+{
+  "title": "Ambient Guitar Motifs",
+  "study": "agm01",
+  "bpm": 72,
+  "source_audio": "preview/ambient-guitar-motifs-simple-synth-preview.mp3",
+  "source_audio_sha256": "f6b72e38d9963566aa12f02156d75f2a9478688085656d20470fa3cecfd77858",
+  "source_midi": "midi/agm01-soft-linen/agm01-soft-linen-combined.mid",
+  "source_midi_sha256": "a105da067480ad9e17fdcbf01476c2886578767b1b579f257917a9df451cfcda",
+  "source_events": "catalog/note-events.csv",
+  "source_events_sha256": "c796523276d8b540b647ba37ae17212e360034084ded0b818a225f8bcce8375f",
+  "art_source_file": "art/hero.jpg",
+  "art_source_sha256": "70c7a05f69d51b325cb52e008cc60af7e639311ab86fd8b8fa26f7e3eb7ce66a",
+  "excerpt_start_seconds": 0,
+  "duration_seconds": 18.0,
+  "video": "film/preview.mp4",
+  "video_sha256": "abb72a351f4f7e40b6d93fa41fdd35a36459378e25969712873ec60ad8b1d7be",
+  "caption": "film/preview.vtt",
+  "resolution": "960x540",
+  "fps": 15,
+  "visualization": "Scrolling note events from the selected score over a moving cover image",
+  "disclosure": "preview, not master",
+  "limitations": [
+    "Simple-synth rendering, not a recorded performance.",
+    "No human listening review recorded."
+  ]
+}

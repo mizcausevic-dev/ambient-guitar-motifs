@@ -1,0 +1,30 @@
+{
+  "label": "preview, not a master.",
+  "preview_path": "preview/ambient-guitar-motifs-simple-synth-preview.mp3",
+  "preview_sha256": "f6b72e38d9963566aa12f02156d75f2a9478688085656d20470fa3cecfd77858",
+  "source_midi_path": "midi/agm01-soft-linen/agm01-soft-linen-combined.mid",
+  "source_midi_sha256": "a105da067480ad9e17fdcbf01476c2886578767b1b579f257917a9df451cfcda",
+  "renderer": "release-simple-synth 1.0.0",
+  "renderer_configuration": {
+    "sample_rate": 44100,
+    "source_tracks": [
+      "chord_pulse",
+      "counter_texture",
+      "drums",
+      "principal_motif",
+      "sub_bass",
+      "vocal_like_synth"
+    ],
+    "processing": "Per-voice synthesis and envelopes; summed samples are clamped to +/-0.95, converted to 16-bit stereo PCM and encoded to 192 kb/s MP3."
+  },
+  "selection": {
+    "study": "agm01",
+    "start_seconds": 0,
+    "end_seconds": 106.667
+  },
+  "measurement": {
+    "sample_peak": 0.150493,
+    "not_lufs_or_true_peak": true
+  },
+  "limitations": "Automated generation and decode checks only. Nobody auditioned this simple-synthesis preview. It is not a finished-production sound or master."
+}
