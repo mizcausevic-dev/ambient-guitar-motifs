@@ -76,6 +76,18 @@ def main():
                             if kind == "sub_bass" and study_index and local // release.BAR_TICKS == study_index and local % release.BAR_TICKS == 0:
                                 continue
                             notes.append((local, min(event["duration"], END-local), event["pitch"], event["velocity"]))
+                if args.pack == "ambient-guitar-motifs" and kind == "principal_motif":
+                    # Open phrases trade two slow notes and longer pauses;
+                    # each variation follows a different melodic contour.
+                    phrase_maps = ((240, 1200), (480, 1440), (120, 1080), (360, 1320))
+                    contours = ((0, 2, 4, 1, 3), (3, 1, 4, 2, 0), (2, 4, 1, 3, 0), (4, 2, 0, 3, 1))
+                    notes = []
+                    for bar in range(4):
+                        for step, offset in enumerate(phrase_maps[(bar + variation) % 4]):
+                            pitch = study["motif"][contours[variation][(step + bar + study_index) % 5]]
+                            duration = (360, 480, 600)[(step + bar + study_index) % 3]
+                            velocity = (54, 64, 74)[(step + variation) % 3]
+                            notes.append((bar * release.BAR_TICKS + offset, min(duration, release.BAR_TICKS - offset), pitch, velocity))
                 if not notes:
                     raise ValueError(f"Empty clip: {study['id']} {kind} {variation}")
                 label = "chord-progression" if kind == "chords" else ("bass-hook" if kind == "sub_bass" else "melody")
