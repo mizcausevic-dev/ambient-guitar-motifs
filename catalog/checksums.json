@@ -198,8 +198,8 @@
     },
     {
       "path": "downloads/ambient-guitar-motifs-midi.zip",
-      "bytes": 23094,
-      "sha256": "a9ceadd34150a78b56da90404f12d1457eddf5e801de8584a5c28da40ee7ac57"
+      "bytes": 24081,
+      "sha256": "78cd314d7693bb634f817f753096756b329f1e1a77baa1dea687eab7d47cb11f"
     },
     {
       "path": "film/motion-note-roll.png",
@@ -233,8 +233,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 10554,
-      "sha256": "81cba0fc4e6c75489150ee3588dc387f16a5b4a9848baeb65dfe0b53fa451d4f"
+      "bytes": 10744,
+      "sha256": "9ea09882d84fa1899cbd3a16f0a2e4cf05ff8e93585e336ea3324d0c84066e24"
     },
     {
       "path": "midi/agm01-soft-linen/agm01-soft-linen-combined.mid",
@@ -377,6 +377,11 @@
       "sha256": "8f27bf4d2da874984705d47f3526535f9e21af22caed75480c1d0104d50f47ff"
     },
     {
+      "path": "MIDI-BUYER-LICENSE-v1.0.txt",
+      "bytes": 1652,
+      "sha256": "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9"
+    },
+    {
       "path": "preview/ambient-guitar-motifs-simple-synth-preview.mp3",
       "bytes": 2573627,
       "sha256": "f6b72e38d9963566aa12f02156d75f2a9478688085656d20470fa3cecfd77858"
@@ -388,8 +393,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4102,
-      "sha256": "55b51b09c99686b602fb7426a0eb05c334c29fddec2867300396e3b13ea55f53"
+      "bytes": 4217,
+      "sha256": "9c5f87581fd33d9d1603d75c6af7d3ded508308befbc892a301400fdad0c8c4f"
+    },
+    {
+      "path": "REVISION.md",
+      "bytes": 803,
+      "sha256": "70f10a5b6d4dfc380655d9521eee4ba6cab25e44e0302add9b5c1f73b4eb3ace"
     },
     {
       "path": "social/instagram/caption.txt",
@@ -445,11 +455,6 @@
       "path": "tools/validate_release.py",
       "bytes": 13763,
       "sha256": "c590a3c9e44249ddc1a2d14a048dea0f3e1ef0a232d3b86ea96a0f4eafeff6a5"
-    },
-    {
-      "path": "REVISION.md",
-      "bytes": 803,
-      "sha256": "70f10a5b6d4dfc380655d9521eee4ba6cab25e44e0302add9b5c1f73b4eb3ace"
     }
   ]
 }
